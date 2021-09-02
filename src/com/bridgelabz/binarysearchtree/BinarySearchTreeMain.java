@@ -18,6 +18,8 @@ public class BinarySearchTreeMain {
 		binaryTree.add(63);
 		binaryTree.add(67);
 		System.out.println("The size of binary tree is :"+ binaryTree.getSize());
+		System.out.println("The key 63 is present in BST? "+binaryTree.search(63));
+		
 		int space = 0,height = 10;
 		binaryTree.printBinaryTree(binaryTree.getRoot(),space,height);
 	}
